@@ -18,7 +18,7 @@ let getDataByTitle = (title,year) =>{
 						}
 
 						let card = `
-					            <div class="card col-3 cardContainer" style="width: 18rem;">
+					            <div class="card col-5 col-sm-3 col-xl-2 cardContainer" style="width: 18rem;">
 					            <a href="${img}" class="image">
 							  <img class="card-img-top image" src="${img}" alt="Card image cap">
 							  </a>

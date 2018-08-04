@@ -40,8 +40,8 @@ let getDataByTitle = (title,year) =>{
 				}
 		},
 		error: (err) => {
-			console.log(err)
-			alert("Enter Vaild Data")
+			console.log(err.responseJSON.error.message)
+			alert("Some error occured")
 		} 
 	})
 
